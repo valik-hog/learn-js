@@ -1,11 +1,18 @@
-.item img {
-	max-width: 200px;
-	height: 200px;
+img {
+    width: 200px;
+    height: 200px;
 }
-.item img {
-	max-width: 200px;
-	height: 200px;
+.importent-item {
+	color: green; 
+	font-size: 20px;
+	border: green 1px solid;
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 20px;
 }
-.item li {
-	color: red;
+.importent-size {
+	font-size: 40px;
+}
+input {
+	padding: 20px;
 }
