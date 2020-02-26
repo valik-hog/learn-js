@@ -5,7 +5,7 @@
 	<title>Picap</title>
 </head>
 <body>
-	<input value="hello">
+	<input value="hello it-kamasutra" class="hello-message input" id="hello-message">
 
 
 
@@ -26,10 +26,15 @@
 
 
 	<script>
-		window.alert('number 1')
-        window.alert('number 2')
+		var helloMessageElement;
+		var helloMessageid;
+		helloMessageid = hello-message;
+		helloMessageElement = doctype.getElementByid('helloMessageid');
 
 
+		window.alert('helloMessageElement.value');
+        window.alert('helloMessageElement.id');
+        window.alert('helloMessageElement.className');
 	</script>
 </body>
 </html>
