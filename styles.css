@@ -1,18 +1,7 @@
-img {
-    width: 200px;
-    height: 200px;
-}
-.importent-item {
-	color: green; 
-	font-size: 20px;
-	border: green 1px solid;
-	margin-left: 10px;
+.default-input {
+	border: green 5px solid;
 	padding: 5px;
-	font-size: 20px;
 }
-.importent-size {
-	font-size: 40px;
-}
-input {
-	padding: 20px;
+.error.input {
+	border-color: red;
 }
