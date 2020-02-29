@@ -5,36 +5,41 @@
 	<title>Picap</title>
 </head>
 <body>
-	<input value="hello it-kamasutra" class="hello-message input" id="hello-message">
+<input value="Dmitry" class="first-name-input default-input" id="first-name">
+<input value="Kiev" class="last-name-input default-input" id="last-name">
+<input value="Minsk city" class="addres-input default-input" id="address">
+
+<select id="cities">
+	<option>Kiev</option>
+	<option>Minsk</option>
+	<option selected="selected">Moscow</option>
+</select>
+
+<textarea id="hobbies">JS, CSS, HTML</textarea>
+
+<div id="avatar-wrapper">
+	<img id="avatar" src="VOLKI-krasivye-i-ochen-umnye-zhivotnye.jpg" alt="" />
+</div>
+
+<script>
+var firstNameId = "first-name";
+var firstNameEl = document.getElementById(firstNameId);
+var lastNameId = "last-name";
+var lastNameEl = document.getElementById(lastNameId);
+var addressId = "address";
+var addressEl = document.getElementById(addressId);
+var citiesId = "cities";
+var citiesEl = document.getElementById(citiesId);
+var hobbiesId = "hobbies";
+var hobbiesEl = document.getElementById(hobbiesId);
+var avatarWrapperId = "avatar-wrapper";
+var avatarWrapperEl = document.getElementById(avatarWrapperId);
+var avatarId = "avatar";
+var avatarEl = document.getElementById(avatarId);
+window.alert(avatarEl.src);
+
+</script>
 
 
-
-	<h1>пикап</h1>
-
-	<ul>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-		<li>text</li>
-	</ul>
-
-
-
-	<script>
-		var helloMessageElement;
-		var helloMessageid;
-		helloMessageid = hello-message;
-		helloMessageElement = doctype.getElementByid('helloMessageid');
-
-
-		window.alert('helloMessageElement.value');
-        window.alert('helloMessageElement.id');
-        window.alert('helloMessageElement.className');
-	</script>
 </body>
 </html>
